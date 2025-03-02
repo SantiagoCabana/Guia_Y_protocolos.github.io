@@ -8,11 +8,16 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Inicio",
           "docs": [
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "informacion-craptica/congratulations",
+              "path": "/docs/informacion-craptica/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Inicio",
+              "path": "/docs/Inicio",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -61,6 +66,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/informacion_craptica",
+              "path": "/docs/category/informacion_craptica",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---extras",
               "path": "/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
@@ -70,8 +80,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/Inicio",
+                "label": "Inicio"
               }
             }
           }

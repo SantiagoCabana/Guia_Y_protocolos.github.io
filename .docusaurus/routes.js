@@ -114,16 +114,22 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '733'),
+    component: ComponentCreator('/docs', '74b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '7e6'),
+        component: ComponentCreator('/docs', '7ac'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ba6'),
+            component: ComponentCreator('/docs', 'edb'),
             routes: [
+              {
+                path: '/docs/category/informacion_craptica',
+                component: ComponentCreator('/docs/category/informacion_craptica', 'f9b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/category/tutorial---basics',
                 component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
@@ -137,8 +143,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/docs/informacion-craptica/congratulations',
+                component: ComponentCreator('/docs/informacion-craptica/congratulations', '244'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Inicio',
+                component: ComponentCreator('/docs/Inicio', '0e2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

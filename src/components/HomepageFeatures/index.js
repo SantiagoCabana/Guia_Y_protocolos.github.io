@@ -2,10 +2,15 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+// Importar imágenes PNG correctamente
+import mountainImg from '@site/static/img/logo-practis.png';
+import treeImg from '@site/static/img/logoCrapticaWeb.png';
+import jnvlogoImg from '@site/static/img/jnvlogo.png';
+
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Practis Sac',
+    imgSrc: mountainImg, // Usar la imagen PNG importada
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -14,8 +19,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Craptica',
+    imgSrc: treeImg,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -24,8 +29,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'JNV CONSULTORES SAC',
+    imgSrc: jnvlogoImg,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -35,11 +40,12 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+// Componente modificado para usar <img> en lugar de un componente SVG
+function Feature({ imgSrc, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={imgSrc} alt={title} className={styles.featureImg} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
