@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkguia_yprotocolos=self.webpackChunkguia_yprotocolos||[]).push([[5267],{699:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/Guia_Y_protocolos.github.io/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

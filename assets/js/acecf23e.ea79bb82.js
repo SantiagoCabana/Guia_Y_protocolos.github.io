@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkguia_yprotocolos=self.webpackChunkguia_yprotocolos||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/Guia_Y_protocolos.github.io/blog","blogTitle":"Blog","authorsListPath":"/Guia_Y_protocolos.github.io/blog/authors"}')}}]);
